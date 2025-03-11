@@ -1,0 +1,50 @@
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 250px;
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes change-color{
+   0% {
+    background-color: pink;
+    top: 200px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  25% {
+    background-color: red;
+    top: 100px; 
+    left: 300px; 
+    width: 100px;
+    height: 100px;
+  }
+  50% {
+    background-color: orange;
+    top: 200px;
+    left: 500px; 
+    width: 200px;
+    height: 200px;
+  }
+  75% {
+    background-color: violet;
+    top: 100px; 
+    left: 700px; 
+    width: 100px;
+    height: 100px;
+  }
+  100% {
+    background-color: purple;
+    top: 200px;
+    left: 900px; 
+    width: 200px;
+    height: 200px;
+  }
+}
